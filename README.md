@@ -1,11 +1,4 @@
 # Hallo!
-
-![Not mine](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68921b29340193.55eea8837b0d9.gif)
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Contact](#contact)
-
 # Introduction
 My name is Steve, and I’m a U3 Software Engineering Coop student at McGill University. 
 
@@ -14,6 +7,14 @@ I am passionate about computer networking, robotics, and 3D modeling.
 Currently, I serve as the Software Lead for the McGill Robotics Rover Team. You can explore a [testing repository for my personal project](https://github.com/Blacklotus89898/MyROS) here.
 
 Additionally, I am working on developing a [web-based fullstack application](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.
+
+![Not mine](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68921b29340193.55eea8837b0d9.gif)
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Contact](#contact)
+
+
 
 ## Contact
  Email - [steve.chen@mail.mcgill.ca](mailto:steve.chen@mail.mcgill.ca)
