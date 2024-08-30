@@ -17,6 +17,8 @@ Additionally, I am working on developing a [web-based fullstack application](htt
 
 
 ## Contact
+ Website: [check here](https://cs.mcgill.ca/~schen183/)
+
  Email - [steve.chen@mail.mcgill.ca](mailto:steve.chen@mail.mcgill.ca)
 
  GitHub: [Blacklotus89898](https://github.com/Blacklotus89898)
