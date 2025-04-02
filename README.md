@@ -20,8 +20,8 @@ Recently, I am creating a productivity app [Sodalite](https://github.com/Blacklo
 - [Projects](#projects)
 - [Repos](#repos)
 - [Contact](#contact)
-- [Tech Stack](#contacts)
-- [Github Stats](#contacts)
+- [Tech Stack](#contact)
+- [Github Stats](#contact)
 
 ## Projects
 1. [Sodalite](https://github.com/Blacklotus89898/Sodalite): React, Typescript
