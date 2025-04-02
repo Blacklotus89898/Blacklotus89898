@@ -6,11 +6,13 @@ I am passionate about computer networking, robotics, and 3D modeling.
 
 Currently, I serve as the Software Lead for the McGill Robotics Rover Team. 
 
-You can explore a [peronal ROS based Robotic Project](https://github.com/Blacklotus89898/MyROS).
+You can explore a personal ROS based [Robotic Project](https://github.com/Blacklotus89898/MyROS).
 
 Coming up is [Robotic project V2 using ROS2](https://github.com/Blacklotus89898/MyROS2)
 
-Additionally, I am working on developing a [web-based fullstack application](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.
+Additionally, I am working on developing a web-based fullstack application 
+
+[Cashier App](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.
 
 Recently, I am creating a productivity app [Sodalite](https://github.com/Blacklotus89898/Sodalite)
 
@@ -24,18 +26,18 @@ Recently, I am creating a productivity app [Sodalite](https://github.com/Blacklo
 - [Github Stats](#contact)
 
 ## Projects
-1. [Sodalite](https://github.com/Blacklotus89898/Sodalite): React, Typescript
-2. [Whitelotus](https://mainpy-srm8wkkhknaimzytcthbx9.streamlit.app): Python, Pytorch
-3. [Cashier App](https://github.com/Blacklotus89898/CashierApp): Java SpringBoot, PostgreSQL
-4. [Robotic](https://github.com/Blacklotus89898/MyROS): ROS, Python 
-5. [Sports Center](https://github.com/Blacklotus89898/Sports-Center-Management-System): Java Springboot, React
+1. [Sodalite](https://github.com/Blacklotus89898/Sodalite) : React, Typescript, WebRTC, websocket
+2. [Whitelotus](https://mainpy-srm8wkkhknaimzytcthbx9.streamlit.app) : Python, Pytorch, numpy, pandas
+3. [Cashier App](https://github.com/Blacklotus89898/CashierApp) : Java SpringBoot, PostgreSQL
+4. [Robotic](https://github.com/Blacklotus89898/MyROS) : ROS, Python OpenCV, webrtc
+5. [Sports Center](https://github.com/Blacklotus89898/Sports-Center-Management-System) : Java Springboot, Reactjs, PostgreSQL
 
 ## Repos
 ### Following are repositories under work
-1. [GoForSpeed](https://github.com/Blacklotus89898/GoForSpeed): Golang
-2. [Immovable](https://github.com/Blacklotus89898/Immovable): Rust
-3. [Kali](https://github.com/Blacklotus89898/Kali): C++
-4. [StarFall](https://github.com/BlackHeartedBuddha/StarFall): C# 
+1. [GoForSpeed](https://github.com/Blacklotus89898/GoForSpeed) : Golang, gRPC
+2. [Immovable](https://github.com/Blacklotus89898/Immovable) : Rust, webasm
+3. [Kali](https://github.com/Blacklotus89898/Kali) : C++, CMakeLists.txt, google tests
+4. [StarFall](https://github.com/BlackHeartedBuddha/StarFall) : Unity, C# 
 
 ## Contact
  Website: [check here](https://cs.mcgill.ca/~schen183/)
