@@ -4,17 +4,29 @@ My name is Steve, and I’m a U3 Software Engineering Coop student at McGill Uni
 
 I am passionate about computer networking, robotics, and 3D modeling.
 
-Currently, I serve as the Software Lead for the McGill Robotics Rover Team. You can explore a [testing repository for my personal project](https://github.com/Blacklotus89898/MyROS) here.
+Currently, I serve as the Software Lead for the McGill Robotics Rover Team. 
+
+You can explore a [peronal ROS based Robotic Project](https://github.com/Blacklotus89898/MyROS).
+
+Coming up is [Robotic project V2 using ROS2](https://github.com/Blacklotus89898/MyROS2)
 
 Additionally, I am working on developing a [web-based fullstack application](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.
+
+Recently, I am creating a productivity app [Sodalite](https://github.com/Blacklotus89898/Sodalite)
 
 ![Not mine](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68921b29340193.55eea8837b0d9.gif)
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Projects](#projects)
 - [Contact](#contact)
 
-
+## Projects
+1. [Sodalite](https://github.com/Blacklotus89898/Sodalite): React, Typescript
+2. [Whitelotus](https://github.com/Blacklotus89898/whitelotus): Python, Pytorch
+3. [Cashier App](https://github.com/Blacklotus89898/CashierApp): Java SpringBoot, PostgreSQL
+4. [Robotic](https://github.com/Blacklotus89898/MyROS): ROS, Python 
+5. [Sports Center](https://github.com/Blacklotus89898/Sports-Center-Management-System): Java Springboot, React 
 
 ## Contact
  Website: [check here](https://cs.mcgill.ca/~schen183/)
