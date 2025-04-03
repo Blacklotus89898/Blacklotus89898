@@ -1,29 +1,44 @@
 # Hallo!
-# Introduction
-My name is Steve, and I’m a U3 Software Engineering Coop student at McGill University. 
+
+![Not mine](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68921b29340193.55eea8837b0d9.gif)
+
+<table>
+  <tr>
+    <td>
+
+### Introduction  
+My name is Steve, and I’m a U3 Software Engineering Coop student at McGill University.
 
 I am passionate about computer networking, robotics, and 3D modeling.
 
 Currently, I serve as the Software Lead for the McGill Robotics Rover Team. 
 
-You can explore a personal ROS based [Robotic Project](https://github.com/Blacklotus89898/MyROS).
+You can explore a personal ROS-based [Robotic Project](https://github.com/Blacklotus89898/MyROS).  
 
-Coming up is [Robotic project V2 using ROS2](https://github.com/Blacklotus89898/MyROS2)
+Coming up is [Robotic project V2 using ROS2](https://github.com/Blacklotus89898/MyROS2).  
 
-Additionally, I am working on developing a web-based fullstack application 
+Additionally, I am working on developing a web-based fullstack application:  
 
-[Cashier App](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.
+[Cashier App](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.  
 
-Recently, I am creating a productivity app [Sodalite](https://github.com/Blacklotus89898/Sodalite)
+Recently, I am creating a productivity app: [Sodalite](https://github.com/Blacklotus89898/Sodalite).  
 
-![Not mine](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68921b29340193.55eea8837b0d9.gif)
-## Table of Contents
-- [Introduction](#introduction)
-- [Projects](#projects)
-- [Repos](#repos)
-- [Contact](#contact)
-- [Tech Stack](#contact)
-- [Github Stats](#contact)
+</td>
+<td>
+
+### Table of Contents  
+- [Introduction](#introduction)  
+- [Projects](#projects)  
+- [Repos](#repos)  
+- [Contact](#contact)  
+- [Tech Stack](#contact)  
+- [Github Stats](#contact)  
+
+</td>
+  </tr>
+</table>
+
+
 
 ## Projects
 1. [Sodalite](https://github.com/Blacklotus89898/Sodalite) : React, Typescript, WebRTC, websocket
