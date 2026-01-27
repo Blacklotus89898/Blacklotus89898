@@ -7,7 +7,7 @@
     <td>
 
 ### Introduction  
-My name is Steve, and I’m a U3 Software Engineering Coop student at McGill University.
+My name is Steve, and I’m a U4 Software Engineering Coop with Applied AI Minor student at McGill University.
 
 I am passionate about computer networking, robotics, and 3D modeling.
 
