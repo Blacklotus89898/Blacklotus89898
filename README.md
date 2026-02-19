@@ -9,6 +9,8 @@
 ### Introduction  
 My name is Steve, and I’m a U4 Software Engineering Coop with Applied AI Minor student at McGill University.
 
+[Portfolio](https://blacklotus89898.github.io/Portfolio/)
+
 I am passionate about computer networking, robotics, and 3D modeling.
 
 Currently, I serve as the Software Lead for the McGill Robotics Rover Team. 
