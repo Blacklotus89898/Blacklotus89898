@@ -1,77 +1,45 @@
-# Hallo!
+# Hallo! I'm Steve 👋
 
-![Not mine](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68921b29340193.55eea8837b0d9.gif)
+Software Engineering (Co-op) student at McGill with a minor in Applied AI. I like computer
+networking, robotics and 3D modelling, and I'm Software Lead for the McGill Robotics Rover Team.
 
-<table>
-  <tr>
-    <td>
+Most of my time right now goes into a **self-hosted platform I run at home**: a GitOps k3s
+cluster plus a handful of Go services that build, trade, investigate and remember things on it.
 
-### Introduction  
-My name is Steve, and I’m a U4 Software Engineering Coop with Applied AI Minor student at McGill University.
+## 🏠 The homelab
 
-[Portfolio](https://blacklotus89898.github.io/Portfolio/)
+| Repo | What it is | Stack |
+|---|---|---|
+| [**Homelab**](https://github.com/Blacklotus89898/Homelab) | The umbrella repo. Everything that runs is declared here: ArgoCD app-of-apps, Istio ambient + Gateway API front door, VictoriaMetrics/Grafana, sealed secrets, Backstage, 11 ADRs and a bare-metal rebuild guide | k3s, ArgoCD, Istio, Helm, Kustomize |
+| [**Petal**](https://github.com/Blacklotus89898/Petal) 🌸 | Pipeline orchestrator. Schedules, deduplicates and records repo-native YAML pipelines that run as plain Docker containers | Go, SQLite, React |
+| [**Tulip**](https://github.com/Blacklotus89898/Tulip) 🌷 | Human-approved trading agent (paper). Rules and Claude propose, a deterministic risk gate disposes, nothing trades without a thumbs-up, and shadow books score every strategy | Go, SQLite, MCP |
+| [**Warden**](https://github.com/Blacklotus89898/Warden) | Read-only incident investigator. Collects evidence for every alert and draws a live status map of the cluster | Go, Kubernetes API |
+| [**DaVinci**](https://github.com/Blacklotus89898/DaVinci) | Markdown knowledge base with hybrid search, exposed as an MCP server. Runbooks and postmortems the agents read before acting | Go, SQLite FTS5, Ollama |
 
-I am passionate about computer networking, robotics, and 3D modeling.
+```mermaid
+flowchart LR
+  HL[Homelab<br/>GitOps] -->|ArgoCD| K3S[(k3s cluster)]
+  PE[Petal<br/>builds] --> K3S
+  TU[Tulip<br/>trades] --> K3S
+  WA[Warden<br/>investigates] --> K3S
+  DV[DaVinci<br/>remembers] -.->|runbooks| WA
+```
 
-Currently, I serve as the Software Lead for the McGill Robotics Rover Team. 
+## 🤖 Robotics and other projects
 
-You can explore a personal ROS-based [Robotic Project](https://github.com/Blacklotus89898/MyROS).  
+- [InHouseROS](https://github.com/Blacklotus89898/InHouseROS): my own take on the Robot Operating System, in C++
+- [MyROS2](https://github.com/Blacklotus89898/MyROS2) / [MyROS](https://github.com/Blacklotus89898/MyROS): ROS 2 and ROS Noetic robotics (Python, OpenCV, WebRTC)
+- [Sodalite](https://github.com/Blacklotus89898/Sodalite): collaborative student dashboard (React, TypeScript, WebRTC)
+- [Immovable](https://github.com/Blacklotus89898/Immovable) (Rust, WebAssembly), [GoForSpeed](https://github.com/Blacklotus89898/GoForSpeed) (Go, gRPC)
+- [Portfolio](https://blacklotus89898.github.io/Portfolio/)
 
-Coming up is [Robotic project V2 using ROS2](https://github.com/Blacklotus89898/MyROS2).  
+## 💻 Tech
 
-Additionally, I am working on developing a web-based fullstack application:  
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Argo](https://img.shields.io/badge/argo-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white) ![Istio](https://img.shields.io/badge/istio-%23466BB0.svg?style=for-the-badge&logo=istio&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Proxmox](https://img.shields.io/badge/proxmox-%23E57000.svg?style=for-the-badge&logo=proxmox&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
 
-[Cashier App](https://github.com/Blacklotus89898/CashierApp) for cash registration and inventory management.  
+## 📫 Contact
 
-Recently, I am creating a productivity app: [Sodalite](https://github.com/Blacklotus89898/Sodalite).  
+[Website](https://cs.mcgill.ca/~schen183/) · [steve.chen@mail.mcgill.ca](mailto:steve.chen@mail.mcgill.ca)
 
-</td>
-<td>
-
-### Table of Contents  
-- [Introduction](#introduction)  
-- [Projects](#projects)  
-- [Repos](#repos)  
-- [Contact](#contact)  
-- [Tech Stack](#contact)  
-- [Github Stats](#contact)  
-
-</td>
-  </tr>
-</table>
-
-
-
-## Projects
-1. [Sodalite](https://github.com/Blacklotus89898/Sodalite) : React, Typescript, WebRTC, websocket
-2. [Whitelotus](https://mainpy-srm8wkkhknaimzytcthbx9.streamlit.app) : Python, Pytorch, numpy, pandas
-3. [Cashier App](https://github.com/Blacklotus89898/CashierApp) : Java SpringBoot, PostgreSQL
-4. [Robotic](https://github.com/Blacklotus89898/MyROS) : ROS, Python OpenCV, webrtc
-5. [Sports Center](https://github.com/Blacklotus89898/Sports-Center-Management-System) : Java Springboot, Reactjs, PostgreSQL
-
-## Repos
-### Following are repositories under work
-1. [GoForSpeed](https://github.com/Blacklotus89898/GoForSpeed) : Golang, gRPC
-2. [Immovable](https://github.com/Blacklotus89898/Immovable) : Rust, webasm
-3. [Kali](https://github.com/Blacklotus89898/Kali) : C++, CMakeLists.txt, google tests
-4. [StarFall](https://github.com/BlackHeartedBuddha/StarFall) : Unity, C# 
-
-## Contact
- Website: [check here](https://cs.mcgill.ca/~schen183/)
-
- Email - [steve.chen@mail.mcgill.ca](mailto:steve.chen@mail.mcgill.ca)
-
- GitHub: [Blacklotus89898](https://github.com/Blacklotus89898)
-
-## 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
-## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Blacklotus89898&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Blacklotus89898&theme=vision-friendly-dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Blacklotus89898&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=Blacklotus89898&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+![](https://github-readme-stats.vercel.app/api?username=Blacklotus89898&theme=vision-friendly-dark&show_icons=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Blacklotus89898&theme=vision-friendly-dark&layout=compact)
