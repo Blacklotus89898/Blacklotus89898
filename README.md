@@ -4,7 +4,7 @@ Software Engineering (Co-op) student at McGill with a minor in Applied AI. I lik
 networking, robotics and 3D modelling, and I'm Software Lead for the McGill Robotics Rover Team.
 
 Most of my time right now goes into a **self-hosted platform I run at home**: a GitOps k3s
-cluster plus a handful of Go services that build, trade, investigate and remember things on it.
+cluster plus a handful of Go services that build, trade, investigate, remember and teach on it.
 
 ## 🏠 The homelab
 
@@ -15,6 +15,7 @@ cluster plus a handful of Go services that build, trade, investigate and remembe
 | [**Tulip**](https://github.com/Blacklotus89898/Tulip) 🌷 | Human-approved trading agent (paper). Rules and Claude propose, a deterministic risk gate disposes, nothing trades without a thumbs-up, and shadow books score every strategy | Go, SQLite, MCP |
 | [**Warden**](https://github.com/Blacklotus89898/Warden) | Read-only incident investigator. Collects evidence for every alert and draws a live status map of the cluster | Go, Kubernetes API |
 | [**DaVinci**](https://github.com/Blacklotus89898/DaVinci) | Markdown knowledge base with hybrid search, exposed as an MCP server. Runbooks and postmortems the agents read before acting | Go, SQLite FTS5, Ollama |
+| [**Sprout**](https://github.com/Blacklotus89898/Sprout) 🌱 | Language-learning platform for Mandarin, Cantonese and Spanish: a dictionary-backed reader, tone checks and shadowing, saved-word review and an on-device conversation tutor | Go, React, TypeScript |
 
 ```mermaid
 flowchart LR
@@ -22,8 +23,12 @@ flowchart LR
   PE[Petal<br/>builds] --> K3S
   TU[Tulip<br/>trades] --> K3S
   WA[Warden<br/>investigates] --> K3S
+  SP[Sprout<br/>grows] --> K3S
   DV[DaVinci<br/>remembers] -.->|runbooks| WA
 ```
+
+Every repo documents its design as ADRs (`docs/adr/`) and carries an `AGENTS.md`: one guide for
+contributors and coding agents (commands, layout, the rules that must not break, how to ship a feature).
 
 ## 🤖 Robotics and other projects
 
